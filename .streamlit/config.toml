@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#1a1a1a"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f0f0"
+textColor = "#000000"
+font = "SFProDisplay"
+
+[server]
+headless = true
+
+[global]
+cssFile = "styles/main.css"

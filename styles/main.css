@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal;
+}
+
+/* Apply the font to your entire app */
+html, body, [class*="css"], .st-ae, .st-bj, .st-bc, .st-ci {
+    font-family: 'SFProDisplay', sans-serif !important;
+}
+
+/* Custom CSS for dark-themed sidebar */
+.css-1d391kg {
+    background-color: #1a1a1a;  /* Dark background */
+    color: white;  /* Text color */
+}
+.nav-link {
+    color: white !important;  /* Menu item text color */
+    font-family: 'SFProDisplay', sans-serif;  /* Font */
+    font-size: 16px;  /* Font size */
+}
+.nav-link:hover {
+    background-color: #444444 !important;  /* Hover effect */
+}
+.nav-link-selected {
+    background-color: #333333 !important;  /* Highlighted background */
+    color: white !important;  /* Selected text color */
+}
+.nav-link .nav-icon {
+    color: white !important;  /* Icon color */
+}
+.css-1qfj53r h2 {
+    font-family: 'SFProDisplay', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
